@@ -1,1 +1,6 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork is used to create a new copy of an existing repository within your github account.
+Clone is used to create a new repository offline from the github or from an offline existing repository.
+Branches is just used to create a new branch
