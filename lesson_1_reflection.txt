@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Ans. When you compare a working version with a non-working version you can just point out
+the code that is changed and modify it accordingly. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Ans. In the long term it is very difficult to remember why I have made particular code 
+changes, so if the code is controlled by version control I can see the code changes just
+for a particular feature and if there is any bug I can just focus on that particular area.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Ans. Pros :
+1. User can commit at a logical endpoint e.g. fixing a bug and this will allow someone else to understand differences clearly.
+2. If versions keep on getting automatically saved, it may result in a large number of committed versions which may not contain any useful changes to be compared.
+
+Cons:
+1. If user needs to decide to save the file , he/she may forget too ave the file and this may result in code loss.
+2. User may checkin lot of code in one stretch.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Ans. For some particular situations like developing the software - the documents or source
+Files are interrelated and to make one change we need to make changes across many files,
+But Google Docs or similar version control systems are for different purposes and 
+mainly related to the single documents that are saved.
+
+Q. How can you use the commands git log and git diff to view the history of files?
+Ans. Command for cloning the repository :
+— git clone #repository path.
+
+Command for displaying the history
+— git log
+
+Command for displaying the difference
+
+— git diff firstcommitid second committid
+
+Q. How might using version control make you more confident to make changes that could break something?
+Ans. If we break something, we can revert to previous working version to check which code change caused the issue and fix it easily.
+
+
+
+
