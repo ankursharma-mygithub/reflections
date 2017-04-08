@@ -1,3 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 Ans. 1) When we initialize a repository a new hidden folder gets created at the current folder location. This new hiddedn folder is used to keep track of the versiona nd its changes.
 2) We need to create a repository as repository is a folder for the related files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Ans. In staging area the new files are added and yet not committed and so they can be taken back from the repository.
