@@ -8,3 +8,6 @@ Ans. In staging area the new files are added and yet not committed and so they c
 
 How can you use the staging area to make sure you have one commit per logical change?
 Ans. By using the command "git diff --staged" before committing you can see the changes that you are going to committ and ensure that you committ only those changes which are logical for a one particular changee.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Ans. When we merge two branches together using "git merge branch1 branch2" , the branch2 is merged into branch1 - means all the content of the branch2 is now part fo branch1. This is to ensure that all the changes are part of the main line.
