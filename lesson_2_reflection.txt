@@ -5,3 +5,6 @@ Ans. 1) When we initialize a repository a new hidden folder gets created at the 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Ans. In staging area the new files are added and yet not committed and so they can be taken back from the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Ans. By using the command "git diff --staged" before committing you can see the changes that you are going to committ and ensure that you committ only those changes which are logical for a one particular changee.
